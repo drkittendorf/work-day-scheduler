@@ -41,25 +41,31 @@ $(document).ready(function () {
     parentDiv.appendChild(childDiv);
 
     let childDiv2 = document.createElement("textarea");
-    childDiv2.setAttribute("class", "col-md-10 textarea");
-    childDiv2.textContent = "";
+    childDiv2.setAttribute("class", "col-md-10 description");
+    // childDiv2.textContent = ""; // sets default value as blank
     parentDiv.appendChild(childDiv2);
 
     let childDiv3 = document.createElement("button");
-    childDiv3.setAttribute("class", "col-md-1 saveBtn");
+    childDiv3.setAttribute("class", "col-md-1 saveBtn"); // replace with jquery
     parentDiv.appendChild(childDiv3);
     container.append(parentDiv);
 
     //save text content to local storage
-    // $().on("click" function () {
-    //   let timeSlot = document.getElementById("id");
-    //   let userInput = document.getAttribute(textarea);
-    //   console.log("clicked");
-    //   console.log(timeSlot);
-    //   console.log(userInput);
-    //   localStorage.setItem(timeSlot, userInput);
-    // });
   }
+  $(".saveBtn").on("click", function () {
+    let timeSlot = $(this).parent().attr("id");
+    let userInput = $(this).prev().val(); // relative
+    console.log($(this));
+    console.log(userInput);
+    localStorage.setItem(timeSlot, userInput);
+  });
+
+  // $("#hour-9 .description").val(localStorage.getItem("hour-9")); // loop this
+
+  workDay.forEach((workHours) => {
+    $("#" + workHours + " .description").val(localStorage.getItem(workHours));
+  });
+
   // read clock time & compare to document
   // function renderTime(){
 
