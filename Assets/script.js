@@ -46,7 +46,7 @@ $(document).ready(function () {
     parentDiv.appendChild(childDiv2);
 
     let childDiv3 = document.createElement("button");
-    childDiv3.setAttribute("class", "col-md-1 saveBtn"); // replace with jquery
+    childDiv3.setAttribute("class", "col-md-1 btn btn-outline-secondary far fa-save saveBtn"); // replace with jquery
     parentDiv.appendChild(childDiv3);
     container.append(parentDiv);
 
