@@ -8,4 +8,3 @@ WHEN the user clicks the save button for that timeblock nothing will happen
 THEN the text for that event is not saved in local storage
 WHEN I refresh the page THEN all the events are removed
 
-thats as far as I got...back to the videos and tutorials

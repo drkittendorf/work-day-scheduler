@@ -8,6 +8,8 @@ setInterval(function () {
     $('#currentDay').text(moment().format('MMMM Do YYYY hh:mm:ss A'));
 }, 1000);
 
+let currentTime = parseInt(moment().format('HH'));
+console.log(currentTime)
    
   //dynamically create a place to store text content for each time frame within the arra
   let workDay = [
@@ -36,6 +38,8 @@ setInterval(function () {
   for (let i = 0; i < workDay.length; i++) {
     //create textcontent boxes for each time slot
     let hour = workDay[i];
+    let schedHour = parseInt(workDay[i].slice(5))
+    console.log (schedHour)
     let parentDiv = document.createElement('div');
     parentDiv.setAttribute('id', hour);
     parentDiv.setAttribute('class', 'row time-block');
@@ -47,8 +51,14 @@ setInterval(function () {
     parentDiv.appendChild(childDiv);
 
     let childDiv2 = document.createElement('textarea');
-    childDiv2.setAttribute('class', 'col-md-10 description');
-    // childDiv2.textContent = ""; // sets default value as blank
+        if (schedHour > currentTime) {
+            childDiv2.setAttribute('class', 'col-md-10 description future')
+        } else if (schedHour == currentTime) {
+            childDiv2.setAttribute('class', 'col-md-10 description present')
+        } else {
+            childDiv2.setAttribute('class', 'col-md-10 description past')
+            };
+    childDiv2.textContent = ""; // sets default value as blank
     parentDiv.appendChild(childDiv2);
 
     let childDiv3 = document.createElement('button');
@@ -71,11 +81,24 @@ setInterval(function () {
 
   workDay.forEach((workHours) => {
     $("#" + workHours + " .description").val(localStorage.getItem(workHours));
+
   });
+
+//   function changeChildDiv2Color () {
+//      let schedHour = workHours.slice(0, -1);
+//         if (schedHour === currentTime)
+//     let childDiv2 = document.createElement('textarea');
+//         childDiv2.setAttribute('class', 'col-md-10 description current');
+//         childDiv2.textContent = ""; // sets default value as blank
+//         parentDiv.appendChild(childDiv2);
+
+
+
+//   }
 
   // read clock time & compare to document
   // function renderTime(){
 
-  //when time is elapsed trigger .past
+  //trigger appropriate color for  .past .present .future
   // localStorage.clear(); //when day is over
 });
