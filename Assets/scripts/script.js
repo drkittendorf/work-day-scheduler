@@ -1,18 +1,17 @@
 $(document).ready(function () {
-//   console.log('ready');
 
   // current day, month, day, year, time time running the seconds
 $('#currentDay').text(moment().format('MMMM Do YYYY hh:mm:ss A'));
 
 setInterval(function () {
-    $('#currentDay').text(moment().format('MMMM Do YYYY hh:mm:ss A'));
+$('#currentDay').text(moment().format('MMMM Do YYYY hh:mm:ss A'));
 }, 1000);
 
 let currentTime = parseInt(moment().format('HH'));
 console.log(currentTime)
    
-  //dynamically create a place to store text content for each time frame within the arra
-  let workDay = [
+  //dynamically create a place to store text content for each time frame within the array
+let workDay = [
     'hour-9',
     'hour-10',
     'hour-11',
@@ -22,8 +21,8 @@ console.log(currentTime)
     'hour-15',
     'hour-16',
     'hour-17',
-  ];
-  let workHours = [
+    ];
+let workHours = [
     '9am',
     '10am',
     '11am',
@@ -33,7 +32,7 @@ console.log(currentTime)
     '3pm',
     '4pm',
     '5pm',
-  ];
+    ];
 
   for (let i = 0; i < workDay.length; i++) {
     //create textcontent boxes for each time slot
@@ -57,7 +56,7 @@ console.log(currentTime)
             childDiv2.setAttribute('class', 'col-md-10 description present')
         } else {
             childDiv2.setAttribute('class', 'col-md-10 description past')
-            };
+        };
     childDiv2.textContent = ""; // sets default value as blank
     parentDiv.appendChild(childDiv2);
 
@@ -77,28 +76,8 @@ console.log(currentTime)
     localStorage.setItem(timeSlot, userInput);
   });
 
-  // $("#hour-9 .description").val(localStorage.getItem("hour-9")); // loop this
-
   workDay.forEach((workHours) => {
     $("#" + workHours + " .description").val(localStorage.getItem(workHours));
-
   });
 
-//   function changeChildDiv2Color () {
-//      let schedHour = workHours.slice(0, -1);
-//         if (schedHour === currentTime)
-//     let childDiv2 = document.createElement('textarea');
-//         childDiv2.setAttribute('class', 'col-md-10 description current');
-//         childDiv2.textContent = ""; // sets default value as blank
-//         parentDiv.appendChild(childDiv2);
-
-
-
-//   }
-
-  // read clock time & compare to document
-  // function renderTime(){
-
-  //trigger appropriate color for  .past .present .future
-  // localStorage.clear(); //when day is over
 });
