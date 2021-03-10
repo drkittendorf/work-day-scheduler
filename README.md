@@ -3,11 +3,11 @@
 ### TABLE OF CONTENTS
 
 - [CONTRIBUTOR(S)](#CONTRIBUTOR(S))
-- [DESCRIPTION](#DESCRIPTION)
+- [CONCEPT](#CONCEPT)
 - [REFERENCE LINKS](#REFERENCE-LINKS)
   - [Dale's Work Day Scheduler Application :: Live Link](https://github.com/drkittendorf/05-work-day-scheduler)
   - [Dale's Work Day Scheduler Application :: GitHub Repo](https://drkittendorf.github.io/05-work-day-scheduler/)
-- [CONCEPT](#CONCEPT)
+- [DESCRIPTION](#DESCRIPTION)
 - [LANGUAGES AND TOOLS](#LANGUAGES-AND-TOOLS)
 - [CORE PROJECT TECHNOLOGIES](#CORE-PROJECT-TECHNOLOGIES)
 - [FUTURE DEVELOPMENT](#FUTURE-DEVELOPMENT)
@@ -22,8 +22,8 @@ Dale Kittendorf
 
 ---
 
-## User Story
-```
+## CONCEPT
+
 AS AN employee with a busy schedule
 I WANT to add important events to a daily planner
 SO THAT I can manage my time effectively
