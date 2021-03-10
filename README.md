@@ -54,7 +54,7 @@ THEN the saved events persist
 
 ## REFERENCE LINKS
 
-Link to **Dale's Work Day Scheduler** deployed on GitHub Pages - [Application Live Link](https://drkittendorf.github.io/05-work-day-scheduler/)
+Link to **Dale's Work Day Scheduler** deployed on GitHub - [Application Live Link](https://drkittendorf.github.io/05-work-day-scheduler/)
 
 Link to **GitHub Repo** used for application development - [Application GitHub Repo](https://github.com/drkittendorf/05-work-day-scheduler)
 
@@ -78,8 +78,8 @@ Link to **GitHub Repo** used for application development - [Application GitHub R
 
 Here is a list of all the core technologies used to develop this application.
 
-- 
-- 
+- JQuery
+- Moment
 
 <br>
 
@@ -89,7 +89,8 @@ Here is a list of all the core technologies used to develop this application.
 
 For `future` development, I would like to incorporate the following `enhancements`:
 
-
+- Extend use for longer hours
+- Archive past days
 
 ---
 
