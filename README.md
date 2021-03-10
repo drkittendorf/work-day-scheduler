@@ -5,8 +5,8 @@
 - [CONTRIBUTOR(S)](#CONTRIBUTOR(S))
 - [CONCEPT](#CONCEPT)
 - [REFERENCE LINKS](#REFERENCE-LINKS)
-  - [Dale's Work Day Scheduler Application :: Live Link](https://github.com/drkittendorf/05-work-day-scheduler)
-  - [Dale's Work Day Scheduler Application :: GitHub Repo](https://drkittendorf.github.io/05-work-day-scheduler/)
+  - [Dale's Work Day Scheduler Application :: Live Link](https://drkittendorf.github.io/05-work-day-scheduler/)
+  - [Dale's Work Day Scheduler Application :: GitHub Repo](https://github.com/drkittendorf/05-work-day-scheduler)
 - [DESCRIPTION](#DESCRIPTION)
 - [LANGUAGES AND TOOLS](#LANGUAGES-AND-TOOLS)
 - [CORE PROJECT TECHNOLOGIES](#CORE-PROJECT-TECHNOLOGIES)
@@ -54,9 +54,9 @@ THEN the saved events persist
 
 ## REFERENCE LINKS
 
-Link to **Dale's Portfolio** deployed on GitHub Pages - [Application Live Link](https://github.com/drkittendorf/05-work-day-scheduler/)
+Link to **Dale's Portfolio** deployed on GitHub Pages - [Application Live Link](https://drkittendorf.github.io/05-work-day-scheduler/)
 
-Link to **GitHub Repo** used for application development - [Application GitHub Repo](https://drkittendorf.github.io/05-work-day-scheduler/)
+Link to **GitHub Repo** used for application development - [Application GitHub Repo](https://github.com/drkittendorf/05-work-day-scheduler)
 
 <br>
 
