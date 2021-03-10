@@ -54,7 +54,7 @@ THEN the saved events persist
 
 ## REFERENCE LINKS
 
-Link to **Dale's Portfolio** deployed on GitHub Pages - [Application Live Link](https://drkittendorf.github.io/05-work-day-scheduler/)
+Link to **Dale's Work Day Scheduler** deployed on GitHub Pages - [Application Live Link](https://drkittendorf.github.io/05-work-day-scheduler/)
 
 Link to **GitHub Repo** used for application development - [Application GitHub Repo](https://github.com/drkittendorf/05-work-day-scheduler)
 
