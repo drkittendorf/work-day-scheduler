@@ -1,13 +1,36 @@
-# 05-work-day-scheduler
+# WORK DAY SCHEDULER
+
+### TABLE OF CONTENTS
+
+- [CONTRIBUTOR(S)](#CONTRIBUTOR(S))
+- [DESCRIPTION](#DESCRIPTION)
+- [REFERENCE LINKS](#REFERENCE-LINKS)
+  - [Dale's Work Day Scheduler Application :: Live Link](https://github.com/drkittendorf/05-work-day-scheduler)
+  - [Dale's Work Day Scheduler Application :: GitHub Repo](https://drkittendorf.github.io/05-work-day-scheduler/)
+- [CONCEPT](#CONCEPT)
+- [LANGUAGES AND TOOLS](#LANGUAGES-AND-TOOLS)
+- [CORE PROJECT TECHNOLOGIES](#CORE-PROJECT-TECHNOLOGIES)
+- [FUTURE DEVELOPMENT](#FUTURE-DEVELOPMENT)
+- [LICENSING](#LICENSING)
+- [SCREENSHOTS](#SCREENSHOTS-AND-VIDEO)
+
+---
+## CONTRIBUTOR(S)
+Dale Kittendorf
+
+<br>
+
+---
 
 ## User Story
 ```
 AS AN employee with a busy schedule
 I WANT to add important events to a daily planner
 SO THAT I can manage my time effectively
-```
 
-## Application Description
+---
+
+## DESCRIPTION
 
 This app runs in the browser and features dynamically updated HTML and CSS powered by jQuery. It also uses [Moment.js](https://momentjs.com/) for time and date related components.
 
@@ -25,14 +48,70 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
 
+<br>
 
-The following animation demonstrates the application functionality:
+---
+
+## REFERENCE LINKS
+
+Link to **Dale's Portfolio** deployed on GitHub Pages - [Application Live Link](https://github.com/drkittendorf/05-work-day-scheduler/)
+
+Link to **GitHub Repo** used for application development - [Application GitHub Repo](https://drkittendorf.github.io/05-work-day-scheduler/)
+
+<br>
+
+---
+
+## LANGUAGES AND TOOLS:
+<img align="left" alt="Visual Studio Code" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />
+<img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
+<img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
+<img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
+<img align="left" alt="GitHub" width="26px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" />
+
+<br>
+<br>
+
+---
+
+### CORE PROJECT TECHNOLOGIES
+
+Here is a list of all the core technologies used to develop this application.
+
+- 
+- 
+
+<br>
+
+---
+
+## FUTURE DEVELOPMENT
+
+For `future` development, I would like to incorporate the following `enhancements`:
+
+
+
+---
+
+
+## LICENSING
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+
+The code in this project is licensed under MIT license.
+
+---
+
+## SCREENSHOTS AND VIDEO
+
+- ### SCREENSHOT(S)  
+        (TBD)
+
+<br>
+
+- ### VIDEO
+        The following animation demonstrates the application functionality:
 
 ![day planner demo](./Assets/images/05-third-party-apis-homework-demo.gif)
+<br>
 
-## Links
-
-* https://github.com/drkittendorf/05-work-day-scheduler
-
-* https://drkittendorf.github.io/05-work-day-scheduler/
-
+---
