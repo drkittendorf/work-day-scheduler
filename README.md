@@ -81,7 +81,7 @@ Link to **GitHub Repo** used for application development - [Application GitHub R
 Here is a list of all the core technologies used to develop this application.
 
 - JQuery
-- Moment
+- [Moment.js](https://momentjs.com/)
 
 <br>
 
@@ -91,8 +91,8 @@ Here is a list of all the core technologies used to develop this application.
 
 For `future` development, I would like to incorporate the following `enhancements`:
 
-- Extend use for longer hours
-- Archive past days
+- Extend timeframe for longer hours
+- Create abaility to archive past days
 
 ---
 
