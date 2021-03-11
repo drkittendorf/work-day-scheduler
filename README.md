@@ -92,7 +92,7 @@ Here is a list of all the core technologies used to develop this application.
 For `future` development, I would like to incorporate the following `enhancements`:
 
 - Extend timeframe for longer hours
-- Create abaility to archive past days
+- Create ability to store / retrieve past days
 
 ---
 
