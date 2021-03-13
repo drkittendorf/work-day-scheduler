@@ -81,7 +81,7 @@ Link to **GitHub Repo** used for application development - [Application GitHub R
 Here is a list of all the core technologies used to develop this application.
 
 - `JQuery`
-- `[Moment.js](https://momentjs.com/)`
+- [Moment.js](https://momentjs.com/)
 
 <br>
 
