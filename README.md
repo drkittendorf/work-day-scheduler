@@ -5,8 +5,8 @@
 - [CONTRIBUTOR(S)](#CONTRIBUTOR(S))
 - [USER STORY](#USER-STORY)
 - [REFERENCE LINKS](#REFERENCE-LINKS)
-  - [Dale's Work Day Scheduler Application :: Live Link](https://drkittendorf.github.io/05-work-day-scheduler/)
-  - [Dale's Work Day Scheduler Application :: GitHub Repo](https://github.com/drkittendorf/05-work-day-scheduler)
+  - [Dale's Work Day Scheduler Application :: Live Link](https://drkittendorf.github.io/work-day-scheduler/)
+  - [Dale's Work Day Scheduler Application :: GitHub Repo](https://github.com/drkittendorf/work-day-scheduler)
 - [DESCRIPTION](#DESCRIPTION)
 - [LANGUAGES AND TOOLS](#LANGUAGES-AND-TOOLS)
 - [CORE PROJECT TECHNOLOGIES](#CORE-PROJECT-TECHNOLOGIES)
@@ -56,9 +56,9 @@ This app runs in the browser and features dynamically updated HTML and CSS power
 
 ## REFERENCE LINKS
 
-Link to **Dale's Work Day Scheduler** deployed on GitHub - [Application Live Link](https://drkittendorf.github.io/05-work-day-scheduler/)
+Link to **Dale's Work Day Scheduler** deployed on GitHub - [Application Live Link](https://drkittendorf.github.io/work-day-scheduler/)
 
-Link to **GitHub Repo** used for application development - [Application GitHub Repo](https://github.com/drkittendorf/05-work-day-scheduler)
+Link to **GitHub Repo** used for application development - [Application GitHub Repo](https://github.com/drkittendorf/work-day-scheduler)
 
 <br>
 
